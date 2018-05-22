@@ -6,13 +6,26 @@ h1 {
 
  #intro {
    text-align: center;
-   padding: inherit;
+   padding: 30px;
    background-color: grey;
 
  }
 
  body {
-     background-image: url("isotankface.jpg");
+     background-image: url("squidflyer.jpg");
      background-repeat: no-repeat;
-     border-radius: 50%;
+     background-attachment: fixed;
+     background-position: center;
+
+}
+
+img {
+  border-radius: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
