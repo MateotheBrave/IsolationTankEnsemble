@@ -1,0 +1,18 @@
+
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+ #intro {
+   text-align: center;
+   padding: inherit;
+   background-color: grey;
+
+ }
+
+ body {
+     background-image: url("isotankface.jpg");
+     background-repeat: no-repeat;
+     border-radius: 50%;
+}
