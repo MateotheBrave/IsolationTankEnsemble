@@ -1,14 +1,15 @@
 
 h1 {
-  color: orange;
+  color: olive;
+  padding: 10px;
   text-align: center;
+  background-color: orange;
 }
 
  #intro {
    text-align: center;
-   padding: 30px;
-   background-color: grey;
-
+   padding: 10px;
+   background-color: olive;
  }
 
  body {
@@ -16,6 +17,7 @@ h1 {
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-position: center;
+     background-color: black;
 
 }
 
