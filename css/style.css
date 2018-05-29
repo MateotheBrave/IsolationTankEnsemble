@@ -2,27 +2,34 @@
 h1 {
   color: olive;
   padding: 10px;
-  text-align: center;
   background-color: orange;
+  display: inline-block;
+}
+
+.name {
+  text-align: center;
 }
 
  #intro {
    text-align: center;
-   padding: 10px;
+   padding: 5px;
    background-color: olive;
  }
 
  body {
-     background-image: url("squidflyer.jpg");
+     background-image: url("../images/squidflyer copy.jpg");
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-position: center;
      background-color: black;
+     display: inline-block;
 
 }
 
 img {
   border-radius: 50%;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 
 .center {
