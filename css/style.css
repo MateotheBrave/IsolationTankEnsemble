@@ -1,3 +1,14 @@
+/*base styles*/
+body {
+  text-align: center;
+  background-image: url("../images/squidflyer copy.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+
+}
+/* Title */
 
 h1 {
   color: olive;
@@ -8,33 +19,44 @@ h1 {
 
 .name {
   text-align: center;
+  float: justify;
 }
-
- #intro {
-   text-align: center;
-   padding: 5px;
-   background-color: olive;
- }
-
- body {
-     background-image: url("../images/squidflyer copy.jpg");
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-position: center;
-     background-color: black;
-     display: inline-block;
-
-}
-
+/* header picture */
 img {
   border-radius: 50%;
   padding-top: 25px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
+
 }
 
-.center {
+/*paragraphs*/
+
+ #about {
+   text-align: center;
+   background-color: olive;
+   padding: .5em;
+   margin: .5em;
+ }
+
+ .intro {
+   width: 50%;
+ }
+
+div {
+  display: inline-block;
+}
+
+#center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+/* list elements(links) */
+
+.main-nav li {
+  display: inline;
+
+
 }
