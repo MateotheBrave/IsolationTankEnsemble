@@ -1,33 +1,45 @@
+/*media queries*/
+
+
+
 /*base styles*/
+
 body {
   text-align: center;
   background-image: url("../images/squidflyer copy.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-blend-mode: hard-light; /*just trying this out,
+  feel free to delete*/
+
   background-position: center;
   background-size: cover;
   background-color: black;
-
 }
+
+
+
 /* Title */
 
 h1 {
-  color: olive;
+  color: #330014;
   padding: 10px;
-  background-color: orange;
+  background-color: #ff0066;
   display: inline-block;
+  box-shadow: 10px 10px;
 }
 
 .name {
   text-align: center;
   float: justify;
+  padding: 5px;
 }
 /* header picture */
+
 img {
   border-radius: 50%;
-  padding-top: 25px;
-  padding-bottom: 25px;
-
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /*paragraphs*/
@@ -35,8 +47,11 @@ img {
  #about {
    text-align: center;
    background-color: olive;
-   padding: .5em;
-   margin: .5em;
+   width: 48%;
+   max-width: 25em;
+   padding: 2px auto;
+   border: 2px auto;
+
  }
 
  .intro {
@@ -51,9 +66,10 @@ img {
 
 div {
   display: inline-block;
+
 }
 
-#center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -63,6 +79,7 @@ div {
 /* list elements(links) */
 
 .main-nav li {
+  text-align: center;
   display: inline;
   background-color: olive;
 
