@@ -17,14 +17,21 @@ body {
   background-color: black;
 }
 
+/* .container {
+  display: flex;
+
+} */
+
+
+
 
 
 /* Title */
 
 h1 {
-  color: #330014;
+  color: 330014;
   padding: 10px;
-  background-color: #ff0066;
+  background-color: #80ced6;
   display: inline-block;
   box-shadow: 10px 10px;
 }
@@ -46,12 +53,12 @@ img {
 
  #about {
    text-align: center;
-   background-color: olive;
+   background-color: #80ced6;
    width: 48%;
    max-width: 25em;
-   padding: 2px auto;
+   padding: 10px;
    border: 2px auto;
-
+   min-height: 19em;
  }
 
  .intro {
@@ -64,10 +71,10 @@ img {
    width: 50%;
  }
 
-div {
+/* div {
   display: inline-block;
 
-}
+} */
 
 .center {
     display: block;
@@ -81,6 +88,6 @@ div {
 .main-nav li {
   text-align: center;
   display: inline;
-  background-color: olive;
-
+  background-color: #3e4444;
+  padding: .2em;
 }
