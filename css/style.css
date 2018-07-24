@@ -91,3 +91,9 @@ img {
   background-color: #3e4444;
   padding: .2em;
 }
+
+/* button */
+
+#input {
+  max-width: 20em;
+}
