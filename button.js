@@ -1,3 +1,3 @@
-$('.btn .btn-warning').on('click',  function(event){
+$('.btn').on('click',  function(event){
   alert ('Thanks!');
 });
