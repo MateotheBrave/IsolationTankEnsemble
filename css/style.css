@@ -6,6 +6,8 @@
 
 body {
   text-align: center;
+  /* this is directly in the CSS if want to
+  alter more, maybe put it in HTML? */
   background-image: url("../images/squidflyer copy.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
